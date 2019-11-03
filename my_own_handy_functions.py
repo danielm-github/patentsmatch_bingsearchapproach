@@ -1,5 +1,3 @@
-#!/NOBACKUP/scratch/dmei19/anaconda3/bin/python
-
 # some handy functions
 
 import pickle
