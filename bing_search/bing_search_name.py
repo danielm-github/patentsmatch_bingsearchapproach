@@ -67,7 +67,7 @@ t1 = time.time()
 with open('sdc/compustat/patentsview_name.pickle', 'rb') as handle:
     list_name = pickle.load(handle)
 
-# take task no, 1-7 for Compustat, 1-10 for SDC, 1-1000 for PatentsView
+# take task no, 1-7 for Compustat, 1-10 for SDC, 1-100 for PatentsView
 task_num = int(sys.argv[1])
 
 logfile = 'search_task' + str(task_num) + '.log'
