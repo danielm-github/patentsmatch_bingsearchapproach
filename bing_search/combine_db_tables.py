@@ -7,7 +7,7 @@ import sqlite3
 attach_sql = ";"
 attach_name = ""
 
-num_task = 10 # 7 for Compustat / 10 for SDC / 1000 for PatentsView
+num_task = 10 # 7 for Compustat / 10 for SDC / 100 for PatentsView
 df_list = [None] * num_task
 
 #prefix = 'compustat'
