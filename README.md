@@ -23,7 +23,7 @@ Our matching procedure has four steps.
 - SDC Platinum. The relevant variables include SDC deal number, firm name of the target and acquirer, and firm ID (cusip).
 
 ### Step 2: Clean assignee names and Compustat/SDC firm names.
-In this step, we remove punctuation and accent marks. The file “dict_char_replace.json” provides a complete list of punctuations and accent marks that we remove or replace. These choices appear to produce the best Bing search results based on our manual checks. The folder “clean_name” contains the codes for removing punctuations and accent marks in the assignee and Compustat/SDC firm names. The punctuation-free names are used as input into the Bing search in the next step.
+- In this step, we remove punctuation and accent marks. The file “dict_char_replace.json” provides a complete list of punctuations and accent marks that we remove or replace. These choices appear to produce the best Bing search results based on our manual checks. The folder “clean_name” contains the codes for removing punctuations and accent marks in the assignee and Compustat/SDC firm names. The punctuation-free names are used as input into the Bing search in the next step.
 
 ### Step 3: Use the Bing Web Search API to collect search results in the form of URLs.
 - In this step, we first create the csv input file that contains the punctuation-free firm name.
@@ -32,7 +32,7 @@ In this step, we remove punctuation and accent marks. The file “dict_char_repl
 - The folder “match” contains some simple code for cleaning the URLs collected from the Bing search.
 
 ### Step 4: Match assignees to Compustat public firms and SDC private firms using names and URLs.
-In the final step, we consider a patent assignee and a Compustat/SDC firm to be a match if the top five search results for the assignee and for the Compustat/SDC firm share at least two exact matches.
+- In the final step, we consider a patent assignee and a Compustat/SDC firm to be a match if the top five search results for the assignee and for the Compustat/SDC firm share at least two exact matches.
 
 ## Reference:
 Autor, David, David Dorn, Gordon H. Hanson, Gary Pisano, and Pian Shu, 2019, “Foreign Competition and Domestic Innovation: Evidence from U.S. Patents,” American Economic Review: Insights, forthcoming.
