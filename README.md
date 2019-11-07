@@ -10,15 +10,11 @@ Matching Patent Assignees to SDC Private Firms:
 We are the first attempt in the literature to match patent assignees to private firms using the web search engine approach. The number of private deals (i.e., public acquirer – private target) is 42,206. Among all private targets in these deals, 9.5% has patent records, giving us 4,019 observations. 
 
 Our matching procedure has four steps.
-Step 1: Download the source data: \n
+Step 1: Download the source data: 
 • Patent data from the U.S. Patent and Inventor Database (the March 2019 version from PatentsView is used here).
-
 • Linked patent-Compustat data from the NBER Patent Data Project, which covers only patents granted by 2006.
-
 • Linked patent-CRSP data from Kogan et al. (2017), which covers patents granted by 2010.
-
 • Compustat North America. The relevant variables include Compustat firm ID (gvkey), firm name, firm website.
-
 • SDC Platinum. The relevant variables include SDC deal number, firm name of the target and acquirer, and firm ID (cusip).
 
 Step 2: Clean assignee names and Compustat/SDC firm names.
