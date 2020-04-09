@@ -2,8 +2,9 @@
 
 This data project is a systematic effort to match assignee names on USPTO patent records, sometimes abbreviated or misspelled, to the universe of public firms in Compustat and all private firms that have been involved in alliances and M&A in SDC Platinum. The current coverage runs from 1976 to 2017 for Compustat firms and from 1985-2017 for SDC firms. 
 
-The algorithm leverages the Bing web search engine and significantly improves upon fuzzy name matching, a common practice in the literature. This document presents a step-by-step guide to our searching and matching algorithm. All codes are publicly available on the GitHub page:
-https://github.com/danielm-github/patentsmatch_bingsearchapproach
+The algorithm leverages the Bing web search engine and significantly improves upon fuzzy name matching, a common practice in the literature. This document presents a step-by-step guide to our searching and matching algorithm.
+
+You may add your email to our [list](https://forms.gle/1ABK6WZk36n9Ye9p9) so that we can inform you once we make the data publicly available. Please contact Danqing Mei (dmei19@gsb.columbia.edu) or Miao Liu (mliu7@chicagobooth.edu) if you have any other questions.
 
 ## Matching Patent Assignees to Compustat Public Firms: 
 Our procedure to match patent assignees to Compustat firms is similar to that of Autor et al. (forthcoming). The initial project started before they publish their paper and procedure. So there are a few differences between ours and theirs as detailed below. We extend their sample period from 2013 to 2017. 
