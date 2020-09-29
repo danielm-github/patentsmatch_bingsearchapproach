@@ -39,3 +39,5 @@ Our matching procedure has four steps.
 Autor, David, David Dorn, Gordon H. Hanson, Gary Pisano, and Pian Shu, 2019, “Foreign Competition and Domestic Innovation: Evidence from U.S. Patents,” American Economic Review: Insights, forthcoming.
 
 Kogan, Leonid, Dimitris Papanikolaou, Amit Seru, and Noah Stoffman, 2017, “Technological Innovation, Resource Allocation, and Growth,” The Quarterly Journal of Economics 132, 665–712.
+
+Mei, Danqing, 2020, "Technology Development and Corporate Mergers," Working paper.
