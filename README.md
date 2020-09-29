@@ -11,7 +11,7 @@ Our procedure to match patent assignees to Compustat firms is similar to that of
 
 
 ## Matching Patent Assignees to SDC Private Firms: 
-We are the first attempt in the literature to match patent assignees to private firms using the web search engine approach. To illustrate the importance of private firms in the M&A market, the number of public deals (i.e., public acquirer – public target) is 6,175 between 1976 and 2017. Among these deals, 1,665 targets have patent records. The number of private deals (i.e., public acquirer – private target) is 42,206 between 1985 and 2017. Among these deals, 4,019 targets have patent records.
+We are the first attempt in the literature to match patent assignees to private firms using the web search engine approach (Mei, 2020). To illustrate the importance of private firms in the M&A market, the number of public deals (i.e., public acquirer – public target) is 6,175 between 1976 and 2017. Among these deals, 1,665 targets have patent records. The number of private deals (i.e., public acquirer – private target) is 42,206 between 1985 and 2017. Among these deals, 4,019 targets have patent records.
 
 ## Matching Procedure
 Our matching procedure has four steps.
